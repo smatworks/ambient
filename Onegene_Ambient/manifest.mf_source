@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: lib/commons-net-3.3.jar lib/dsn.jar lib/gimap.jar lib/imap.jar lib/log4j-1.2.17.jar lib/log4j-api-2.0-rc1.jar lib/log4j-core-2.0-rc1.jar lib/mailapi.jar lib/org.springframework.core-3.0.5.RELEASE.jar lib/pop3.jar lib/quartz-1.8.4.jar lib/slf4j-api-1.7.5.jar lib/slf4j-log4j12-1.7.5.jar lib/smtp.jar
+Main-Class: net.smartworks.ambient.starter.Starter
+

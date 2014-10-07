@@ -1,0 +1,213 @@
+14:56:08,751 INFO  - ######## START AMBIENT SCHEDULER ######## - net.smartworks.ambient.starter.Starter.main(Starter.java:29) - [main] 
+14:56:08,816 INFO  - Job execution threads will use class loader of thread: main - org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:270) - [main] 
+14:56:08,859 INFO  - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl - org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:60) - [main] 
+14:56:08,861 INFO  - Quartz Scheduler v.1.8.4 created. - org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:222) - [main] 
+14:56:08,869 INFO  - RAMJobStore initialized. - org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:139) - [main] 
+14:56:08,870 INFO  - Scheduler meta-data: Quartz Scheduler (v1.8.4) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+ - org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:244) - [main] 
+14:56:08,870 INFO  - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties' - org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1280) - [main] 
+14:56:08,870 INFO  - Quartz scheduler version: 1.8.4 - org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1284) - [main] 
+14:56:08,870 INFO  - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started. - org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:500) - [main] 
+14:56:08,878 ERROR - java.lang.IllegalArgumentException: cronExpression cannot be null - net.smartworks.ambient.starter.Starter.main(Starter.java:33) - [main] 
+java.lang.IllegalArgumentException: cronExpression cannot be null
+	at org.quartz.CronExpression.<init>(CronExpression.java:250)
+	at org.quartz.CronTrigger.setCronExpression(CronTrigger.java:471)
+	at org.quartz.CronTrigger.<init>(CronTrigger.java:302)
+	at net.smartworks.ambient.starter.Starter.<init>(Starter.java:47)
+	at net.smartworks.ambient.starter.Starter.main(Starter.java:30)
+14:56:10,753 INFO  - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog] - org.quartz.utils.UpdateChecker.doCheck(UpdateChecker.java:86) - [Timer-0] 
+14:59:06,085 INFO  - ######## START AMBIENT SCHEDULER ######## - net.smartworks.ambient.starter.Starter.main(Starter.java:29) - [main] 
+14:59:06,125 INFO  - Job execution threads will use class loader of thread: main - org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:270) - [main] 
+14:59:06,141 INFO  - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl - org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:60) - [main] 
+14:59:06,142 INFO  - Quartz Scheduler v.1.8.4 created. - org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:222) - [main] 
+14:59:06,144 INFO  - RAMJobStore initialized. - org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:139) - [main] 
+14:59:06,145 INFO  - Scheduler meta-data: Quartz Scheduler (v1.8.4) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+ - org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:244) - [main] 
+14:59:06,146 INFO  - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties' - org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1280) - [main] 
+14:59:06,146 INFO  - Quartz scheduler version: 1.8.4 - org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1284) - [main] 
+14:59:06,146 INFO  - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started. - org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:500) - [main] 
+14:59:06,152 ERROR - java.lang.IllegalArgumentException: cronExpression cannot be null - net.smartworks.ambient.starter.Starter.main(Starter.java:33) - [main] 
+java.lang.IllegalArgumentException: cronExpression cannot be null
+	at org.quartz.CronExpression.<init>(CronExpression.java:250)
+	at org.quartz.CronTrigger.setCronExpression(CronTrigger.java:471)
+	at org.quartz.CronTrigger.<init>(CronTrigger.java:302)
+	at net.smartworks.ambient.starter.Starter.<init>(Starter.java:47)
+	at net.smartworks.ambient.starter.Starter.main(Starter.java:30)
+14:59:18,203 INFO  - ######## START AMBIENT SCHEDULER ######## - net.smartworks.ambient.starter.Starter.main(Starter.java:29) - [main] 
+14:59:18,240 INFO  - Job execution threads will use class loader of thread: main - org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:270) - [main] 
+14:59:18,255 INFO  - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl - org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:60) - [main] 
+14:59:18,256 INFO  - Quartz Scheduler v.1.8.4 created. - org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:222) - [main] 
+14:59:18,259 INFO  - RAMJobStore initialized. - org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:139) - [main] 
+14:59:18,260 INFO  - Scheduler meta-data: Quartz Scheduler (v1.8.4) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+ - org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:244) - [main] 
+14:59:18,261 INFO  - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties' - org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1280) - [main] 
+14:59:18,261 INFO  - Quartz scheduler version: 1.8.4 - org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1284) - [main] 
+14:59:18,261 INFO  - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started. - org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:500) - [main] 
+14:59:19,734 INFO  - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog] - org.quartz.utils.UpdateChecker.doCheck(UpdateChecker.java:86) - [Timer-0] 
+15:02:03,529 INFO  - ######## START AMBIENT SCHEDULER ######## - net.smartworks.ambient.starter.Starter.main(Starter.java:29) - [main] 
+15:02:03,569 INFO  - Job execution threads will use class loader of thread: main - org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:270) - [main] 
+15:02:03,585 INFO  - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl - org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:60) - [main] 
+15:02:03,587 INFO  - Quartz Scheduler v.1.8.4 created. - org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:222) - [main] 
+15:02:03,590 INFO  - RAMJobStore initialized. - org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:139) - [main] 
+15:02:03,591 INFO  - Scheduler meta-data: Quartz Scheduler (v1.8.4) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+ - org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:244) - [main] 
+15:02:03,591 INFO  - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties' - org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1280) - [main] 
+15:02:03,592 INFO  - Quartz scheduler version: 1.8.4 - org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1284) - [main] 
+15:02:03,592 INFO  - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started. - org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:500) - [main] 
+15:02:05,038 INFO  - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog] - org.quartz.utils.UpdateChecker.doCheck(UpdateChecker.java:86) - [Timer-0] 
+15:02:42,742 INFO  - ######## START AMBIENT SCHEDULER ######## - net.smartworks.ambient.starter.Starter.main(Starter.java:29) - [main] 
+15:02:42,783 INFO  - Job execution threads will use class loader of thread: main - org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:270) - [main] 
+15:02:42,801 INFO  - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl - org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:60) - [main] 
+15:02:42,802 INFO  - Quartz Scheduler v.1.8.4 created. - org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:222) - [main] 
+15:02:42,805 INFO  - RAMJobStore initialized. - org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:139) - [main] 
+15:02:42,807 INFO  - Scheduler meta-data: Quartz Scheduler (v1.8.4) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+ - org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:244) - [main] 
+15:02:42,807 INFO  - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties' - org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1280) - [main] 
+15:02:42,808 INFO  - Quartz scheduler version: 1.8.4 - org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1284) - [main] 
+15:02:42,808 INFO  - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started. - org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:500) - [main] 
+15:02:44,263 INFO  - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog] - org.quartz.utils.UpdateChecker.doCheck(UpdateChecker.java:86) - [Timer-0] 
+15:03:00,042 INFO  - @@ Ambient Job - Start! : Mon Sep 29 15:03:00 KST 2014 - net.smartworks.ambient.job.AmbientJob.execute(AmbientJob.java:29) - [DefaultQuartzScheduler_Worker-1] 
+15:03:00,120 WARN  - XmlFilePath Is Null!! - net.smartworks.ambient.job.AmbientJob.execute(AmbientJob.java:36) - [DefaultQuartzScheduler_Worker-1] 
+15:05:22,468 INFO  - ######## START AMBIENT SCHEDULER ######## - net.smartworks.ambient.starter.Starter.main(Starter.java:29) - [main] 
+15:05:22,516 INFO  - Job execution threads will use class loader of thread: main - org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:270) - [main] 
+15:05:22,535 INFO  - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl - org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:60) - [main] 
+15:05:22,537 INFO  - Quartz Scheduler v.1.8.4 created. - org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:222) - [main] 
+15:05:22,542 INFO  - RAMJobStore initialized. - org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:139) - [main] 
+15:05:22,543 INFO  - Scheduler meta-data: Quartz Scheduler (v1.8.4) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+ - org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:244) - [main] 
+15:05:22,544 INFO  - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties' - org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1280) - [main] 
+15:05:22,544 INFO  - Quartz scheduler version: 1.8.4 - org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1284) - [main] 
+15:05:22,544 INFO  - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started. - org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:500) - [main] 
+15:05:27,592 INFO  - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog] - org.quartz.utils.UpdateChecker.doCheck(UpdateChecker.java:86) - [Timer-0] 
+15:06:00,016 INFO  - @@ Ambient Job - Start! : Mon Sep 29 15:06:00 KST 2014 - net.smartworks.ambient.job.AmbientJob.execute(AmbientJob.java:29) - [DefaultQuartzScheduler_Worker-1] 
+15:06:00,127 WARN  - XmlFilePath Is Null!! - net.smartworks.ambient.job.AmbientJob.execute(AmbientJob.java:36) - [DefaultQuartzScheduler_Worker-1] 
+17:03:29,660 INFO  - ######## START AMBIENT SCHEDULER ######## - net.smartworks.ambient.starter.Starter.main(Starter.java:29) - [main] 
+17:03:29,834 INFO  - Job execution threads will use class loader of thread: main - org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:270) - [main] 
+17:03:29,868 INFO  - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl - org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:60) - [main] 
+17:03:29,870 INFO  - Quartz Scheduler v.1.8.4 created. - org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:222) - [main] 
+17:03:29,878 INFO  - RAMJobStore initialized. - org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:139) - [main] 
+17:03:29,879 INFO  - Scheduler meta-data: Quartz Scheduler (v1.8.4) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+ - org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:244) - [main] 
+17:03:29,879 INFO  - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties' - org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1280) - [main] 
+17:03:29,879 INFO  - Quartz scheduler version: 1.8.4 - org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1284) - [main] 
+17:03:29,879 INFO  - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started. - org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:500) - [main] 
+17:03:31,628 INFO  - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog] - org.quartz.utils.UpdateChecker.doCheck(UpdateChecker.java:86) - [Timer-0] 
+17:04:00,064 INFO  - @@ Ambient Job - Start! : Mon Sep 29 17:04:00 KST 2014 - net.smartworks.ambient.job.AmbientJob.execute(AmbientJob.java:29) - [DefaultQuartzScheduler_Worker-1] 
+17:04:00,082 INFO  - No such file: D:\Maninsoft\PROJECT_SITE\onegene\2014AMBIENT\sample\y\AMB_20140929\_20140929_17.txt - net.smartworks.ambient.util.FileUtil.readString(FileUtil.java:193) - [DefaultQuartzScheduler_Worker-1] 
+17:04:00,104 INFO  - No such file: D:\Maninsoft\PROJECT_SITE\onegene\2014AMBIENT\sample\z\AMB_20140929\_20140929_17.txt - net.smartworks.ambient.util.FileUtil.readString(FileUtil.java:193) - [DefaultQuartzScheduler_Worker-1] 
+17:04:00,105 WARN  - Not Exist File : D:/Maninsoft/PROJECT_SITE/onegene/2014AMBIENT/sample/y/AMB_20140929/_20140929_17.txt - net.smartworks.ambient.manager.FileManager.getFileNParsingNExportXml(FileManager.java:64) - [DefaultQuartzScheduler_Worker-1] 
+17:04:00,105 WARN  - Not Exist File : D:/Maninsoft/PROJECT_SITE/onegene/2014AMBIENT/sample/z/AMB_20140929/_20140929_17.txt - net.smartworks.ambient.manager.FileManager.getFileNParsingNExportXml(FileManager.java:67) - [DefaultQuartzScheduler_Worker-1] 
+17:04:00,105 WARN  - XmlFilePath Is Null!! - net.smartworks.ambient.job.AmbientJob.execute(AmbientJob.java:36) - [DefaultQuartzScheduler_Worker-1] 
+17:05:00,003 INFO  - @@ Ambient Job - Start! : Mon Sep 29 17:05:00 KST 2014 - net.smartworks.ambient.job.AmbientJob.execute(AmbientJob.java:29) - [DefaultQuartzScheduler_Worker-2] 
+17:05:00,013 INFO  - No such file: D:\Maninsoft\PROJECT_SITE\onegene\2014AMBIENT\sample\z\AMB_20140929\_20140929_17.txt - net.smartworks.ambient.util.FileUtil.readString(FileUtil.java:193) - [DefaultQuartzScheduler_Worker-2] 
+17:05:00,014 WARN  - Not Exist File : D:/Maninsoft/PROJECT_SITE/onegene/2014AMBIENT/sample/z/AMB_20140929/_20140929_17.txt - net.smartworks.ambient.manager.FileManager.getFileNParsingNExportXml(FileManager.java:67) - [DefaultQuartzScheduler_Worker-2] 
+17:05:00,253 INFO  - @@ Ambient Job - File Parse and Export Xml Done! (D:/Maninsoft/PROJECT_SITE/onegene/2014AMBIENT/sample/10018320140929170500.xml) : Mon Sep 29 17:05:00 KST 2014 - net.smartworks.ambient.job.AmbientJob.execute(AmbientJob.java:32) - [DefaultQuartzScheduler_Worker-2] 
+17:05:00,604 INFO  - @@ Ambient Job - File Transfer Success!! Mon Sep 29 17:05:00 KST 2014 - net.smartworks.ambient.job.AmbientJob.execute(AmbientJob.java:34) - [DefaultQuartzScheduler_Worker-2] 
+17:09:18,123 INFO  - ######## START AMBIENT SCHEDULER ######## - net.smartworks.ambient.starter.Starter.main(Starter.java:29) - [main] 
+17:09:18,164 INFO  - Job execution threads will use class loader of thread: main - org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:270) - [main] 
+17:09:18,179 INFO  - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl - org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:60) - [main] 
+17:09:18,180 INFO  - Quartz Scheduler v.1.8.4 created. - org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:222) - [main] 
+17:09:18,185 INFO  - RAMJobStore initialized. - org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:139) - [main] 
+17:09:18,186 INFO  - Scheduler meta-data: Quartz Scheduler (v1.8.4) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+ - org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:244) - [main] 
+17:09:18,187 INFO  - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties' - org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1280) - [main] 
+17:09:18,187 INFO  - Quartz scheduler version: 1.8.4 - org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1284) - [main] 
+17:09:18,187 INFO  - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started. - org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:500) - [main] 
+17:09:19,983 INFO  - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog] - org.quartz.utils.UpdateChecker.doCheck(UpdateChecker.java:86) - [Timer-0] 
+17:09:28,539 INFO  - ######## START AMBIENT SCHEDULER ######## - net.smartworks.ambient.starter.Starter.main(Starter.java:29) - [main] 
+17:09:28,578 INFO  - Job execution threads will use class loader of thread: main - org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:270) - [main] 
+17:09:28,593 INFO  - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl - org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:60) - [main] 
+17:09:28,594 INFO  - Quartz Scheduler v.1.8.4 created. - org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:222) - [main] 
+17:09:28,598 INFO  - RAMJobStore initialized. - org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:139) - [main] 
+17:09:28,600 INFO  - Scheduler meta-data: Quartz Scheduler (v1.8.4) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+ - org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:244) - [main] 
+17:09:28,600 INFO  - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties' - org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1280) - [main] 
+17:09:28,600 INFO  - Quartz scheduler version: 1.8.4 - org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1284) - [main] 
+17:09:28,601 INFO  - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started. - org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:500) - [main] 
+17:09:30,066 INFO  - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog] - org.quartz.utils.UpdateChecker.doCheck(UpdateChecker.java:86) - [Timer-0] 
+17:10:00,009 INFO  - @@ Ambient Job - Start! : Mon Sep 29 17:10:00 KST 2014 - net.smartworks.ambient.job.AmbientJob.execute(AmbientJob.java:29) - [DefaultQuartzScheduler_Worker-1] 
+17:10:00,014 INFO  - No such file: D:\Maninsoft\PROJECT_SITE\onegene\2014AMBIENT\sample\z\AMB_20140929\_20140929_17.txt - net.smartworks.ambient.util.FileUtil.readString(FileUtil.java:193) - [DefaultQuartzScheduler_Worker-1] 
+17:10:00,014 WARN  - Not Exist File : D:/Maninsoft/PROJECT_SITE/onegene/2014AMBIENT/sample/z/AMB_20140929/_20140929_17.txt - net.smartworks.ambient.manager.FileManager.getFileNParsingNExportXml(FileManager.java:67) - [DefaultQuartzScheduler_Worker-1] 
+17:10:00,130 INFO  - @@ Ambient Job - File Parse and Export Xml Done! (D:/Maninsoft/PROJECT_SITE/onegene/2014AMBIENT/sample/10018320140929171000.xml) : Mon Sep 29 17:10:00 KST 2014 - net.smartworks.ambient.job.AmbientJob.execute(AmbientJob.java:32) - [DefaultQuartzScheduler_Worker-1] 
+17:10:00,446 INFO  - @@ Ambient Job - File Transfer Success!! Mon Sep 29 17:10:00 KST 2014 - net.smartworks.ambient.job.AmbientJob.execute(AmbientJob.java:34) - [DefaultQuartzScheduler_Worker-1] 
+17:11:17,215 INFO  - ######## START AMBIENT SCHEDULER ######## - net.smartworks.ambient.starter.Starter.main(Starter.java:29) - [main] 
+17:11:17,259 INFO  - Job execution threads will use class loader of thread: main - org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:270) - [main] 
+17:11:17,277 INFO  - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl - org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:60) - [main] 
+17:11:17,278 INFO  - Quartz Scheduler v.1.8.4 created. - org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:222) - [main] 
+17:11:17,282 INFO  - RAMJobStore initialized. - org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:139) - [main] 
+17:11:17,283 INFO  - Scheduler meta-data: Quartz Scheduler (v1.8.4) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+ - org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:244) - [main] 
+17:11:17,283 INFO  - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties' - org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1280) - [main] 
+17:11:17,283 INFO  - Quartz scheduler version: 1.8.4 - org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1284) - [main] 
+17:11:17,284 INFO  - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started. - org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:500) - [main] 
+17:11:18,805 INFO  - New Quartz update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog] - org.quartz.utils.UpdateChecker.doCheck(UpdateChecker.java:86) - [Timer-0] 
+17:11:50,030 INFO  - @@ Ambient Job - Start! : Mon Sep 29 17:11:50 KST 2014 - net.smartworks.ambient.job.AmbientJob.execute(AmbientJob.java:29) - [DefaultQuartzScheduler_Worker-1] 
+17:11:50,046 INFO  - No such file: D:\Maninsoft\PROJECT_SITE\onegene\2014AMBIENT\sample\z\AMB_20140929\_20140929_17.txt - net.smartworks.ambient.util.FileUtil.readString(FileUtil.java:193) - [DefaultQuartzScheduler_Worker-1] 
+17:11:50,047 WARN  - Not Exist File : D:/Maninsoft/PROJECT_SITE/onegene/2014AMBIENT/sample/z/AMB_20140929/_20140929_17.txt - net.smartworks.ambient.manager.FileManager.getFileNParsingNExportXml(FileManager.java:67) - [DefaultQuartzScheduler_Worker-1] 
+17:11:50,182 INFO  - @@ Ambient Job - File Parse and Export Xml Done! (D:/Maninsoft/PROJECT_SITE/onegene/2014AMBIENT/sample/10018320140929171150.xml) : Mon Sep 29 17:11:50 KST 2014 - net.smartworks.ambient.job.AmbientJob.execute(AmbientJob.java:32) - [DefaultQuartzScheduler_Worker-1] 
+17:11:50,183 INFO  - @@ Ambient Job - File Transfer Success!! Mon Sep 29 17:11:50 KST 2014 - net.smartworks.ambient.job.AmbientJob.execute(AmbientJob.java:34) - [DefaultQuartzScheduler_Worker-1] 
+17:12:50,001 INFO  - @@ Ambient Job - Start! : Mon Sep 29 17:12:50 KST 2014 - net.smartworks.ambient.job.AmbientJob.execute(AmbientJob.java:29) - [DefaultQuartzScheduler_Worker-2] 
+17:12:50,006 INFO  - No such file: D:\Maninsoft\PROJECT_SITE\onegene\2014AMBIENT\sample\z\AMB_20140929\_20140929_17.txt - net.smartworks.ambient.util.FileUtil.readString(FileUtil.java:193) - [DefaultQuartzScheduler_Worker-2] 
+17:12:50,006 WARN  - Not Exist File : D:/Maninsoft/PROJECT_SITE/onegene/2014AMBIENT/sample/z/AMB_20140929/_20140929_17.txt - net.smartworks.ambient.manager.FileManager.getFileNParsingNExportXml(FileManager.java:67) - [DefaultQuartzScheduler_Worker-2] 
+17:12:50,199 INFO  - @@ Ambient Job - File Parse and Export Xml Done! (D:/Maninsoft/PROJECT_SITE/onegene/2014AMBIENT/sample/10018320140929171250.xml) : Mon Sep 29 17:12:50 KST 2014 - net.smartworks.ambient.job.AmbientJob.execute(AmbientJob.java:32) - [DefaultQuartzScheduler_Worker-2] 
+17:12:50,199 INFO  - @@ Ambient Job - File Transfer Success!! Mon Sep 29 17:12:50 KST 2014 - net.smartworks.ambient.job.AmbientJob.execute(AmbientJob.java:34) - [DefaultQuartzScheduler_Worker-2] 
