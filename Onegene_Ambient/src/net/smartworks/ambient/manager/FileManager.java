@@ -77,7 +77,8 @@ public class FileManager {
 			parsingContentNMakeXmlFile(fileList, partnerCode, exportDir, layerBuff.toString(), isExcludeNgDataToXml);
 			
 			//send file to ftp
-			ManagerFactory.getInstance().getFtpManager().sendXmlFilesToFtp(fileList);
+			//ManagerFactory.getInstance().getFtpManager().sendXmlFilesToFtp(fileList);
+			ManagerFactory.getInstance().getFtpManager().sendXmlFilesToFtpWithRetry(fileList);
 			
 			return fileList.size();
 		} catch (Exception e) {
