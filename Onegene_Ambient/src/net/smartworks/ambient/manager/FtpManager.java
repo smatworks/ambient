@@ -267,12 +267,15 @@ public class FtpManager {
             File xmlFile = new File(filePath);
             InputStream inputStream = new FileInputStream(xmlFile);
  
-            logger.debug("@@ Ambient Job - Start uploading xml file : " + filePath);
+            logger.info("Start upload Xml File! (" + filePath + ")");
             
             boolean done = ftpClient.storeFile(xmlFile.getName(), inputStream);
             inputStream.close();
             if (done) {
-                logger.debug("@@ Ambient Job - The xml file is uploaded successfully.");
+                logger.info("End upload Xml File! (" + filePath + ")");
+        		return true;
+            } else {
+            	return false;
             }
 
         } catch (IOException ex) {
@@ -289,6 +292,5 @@ public class FtpManager {
                 ex.printStackTrace();
             }
         }
-		return true;
 	}
 }
